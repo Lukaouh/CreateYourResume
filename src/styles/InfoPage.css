@@ -1,0 +1,263 @@
+*{
+   font-family: HelveticaNeue;
+}
+input, textarea{
+    font-size: 16px;
+}
+.Container{
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+
+.rightSide{
+    flex:55%;
+    height: 55rem;
+    background-color: #f9f9f9;
+
+}
+.rightSideChild{
+    height: 100%;
+    padding: 0 0 0 40px;
+}
+.mainHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 90%;
+
+}
+.backImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+.backImg img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.Header{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 800;
+    border-bottom: 1px solid rgba(0.0.0.75);
+
+}
+.inputContainer{
+    display: flex;
+    width: 100%;
+    /* padding: 30px 0 0 40px; */
+
+}
+.inputForName, .inputForSurname{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.span{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.validation{
+    font-size: 14px;
+    width: 80%;
+}
+
+.inputContainer input{
+    width: 70%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #bcbcbc;
+    outline: none;
+
+}
+
+.PictureApload{
+    width: 100%;
+    display: flex;
+    padding: 40px 0 0 0;
+    gap: 20px;
+}
+.labelForUpload{
+
+    height: 20px;
+    background-color: #3586ff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+.profileUploader{
+    display: none;
+}
+.aboutMeForm{
+    width: 100%;
+    /* padding: 40px 0 0 40px; */
+}
+.aboutMeForm form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    gap: 8px;
+}
+
+form span{
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 80%;
+}
+form label{
+    margin-top: 15px;
+    
+}
+
+form input{
+    width: 85%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #f5f5f5;
+    outline: none;
+}
+form textarea{
+    max-width: 85%;
+    border-radius: 4px;
+    border: 1px solid #bcbcbc;
+    outline: none;
+    resize: none;
+}
+.nextPageButton{
+    width: 85%;
+    display: flex;
+    justify-content: end;
+
+
+}
+textarea:focus
+,input:focus{
+    background-color: #f1f1f1; 
+}
+.nextPageButton button{
+    width: 90px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #7044e4;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+/* class button and backPageButton for InfoPageSecond component!! */
+.button{
+    display: flex;
+    width: 87%;      
+    /* padding: 0px 0px 0px 40px; */
+    margin-top: 15px;
+} 
+.backPageButton button{
+    width: 90px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #7044e4;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+/*  */
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex: 45%; 
+
+}
+.leftSide{
+   display: flex;
+   height: auto;   
+}
+.line{
+    display: flex;
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+
+
+}
+
+@media only screen and (max-width: 1060px){
+    .resumeImg img{
+        width: 200px;
+        height: 200px;
+
+    }
+    .span{
+        font-size: 14px;
+    }
+    input, textarea{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 964px){
+    .backPageButton button{
+        width: 80px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .nextPageButton button{
+        width: 80px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 768px ){
+    .Container{
+        display:grid;
+
+    }
+    .rightSide{
+        width: 100%;
+        height: 100%;
+       
+    }
+    .span{
+        font-size: 16px;
+    }
+
+
+  
+}
+@media only screen and (max-width: 640px){
+    .span{
+        font-size: 12px;
+    }
+    input, textarea{
+        font-size: 13px;
+    }
+
+
+}
+@media only sceen and (max-width: 360px){
+
+}

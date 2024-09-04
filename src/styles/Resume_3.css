@@ -1,0 +1,143 @@
+
+.Pagecontainer{
+    display: flex;
+    flex: 50%;
+}
+.pageItems{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 40px;
+    width: 100%;
+
+    
+}
+.education{
+    display: flex;
+    /* width: 86%; */
+    color: #f93b1d;
+    height: 60px;
+    font-size: 20px;
+
+}
+.university{
+    width: 90%;
+    height: 30px;
+    width: 90%;
+}
+.uni{
+
+    display: flex;
+    height: 40px;
+    width: 100%;
+
+}
+.uni p{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+.degree{
+    height: 30px;
+    width: 90%;
+}
+.degree p{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+
+.date{
+    width: 90%;
+    height: 40px;
+    display: flex;
+}
+.lastDateValue{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.lastDate{
+    font-size: 16px;
+}
+
+.aboutUni p{
+   width: 90%;
+   height: auto;
+    font-size: 16px;
+}
+@media only screen and (max-width: 964px){
+    .education{
+        font-size: 18px;
+    }
+    .university{
+        height: 38px;
+    }
+    .university .uniName{
+        font-size: 14px;
+    }
+    .degree p{
+        font-size: 14px;
+    }
+  
+    .lastDateValue{
+        font-size: 16px;
+    }
+    .lastDate{
+        font-size: 14px;
+    }
+    .aboutUni p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    .Pagecontainer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .pageItems{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+
+    }
+    .education{
+        font-size: 16px;
+        height: 50px;
+    } 
+    .university{
+        height: 25px;
+    }
+    .date{
+        height: 30px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 640px){
+    .university .uniName{
+        font-size: 13px;
+    }
+    .degree p{
+        font-size: 13px;
+    }
+    .lastDateValue{
+        font-size: 14px;
+    }
+    .lastDate{
+        font-size: 13px;
+    }
+    
+}
+
+@media only screen and (max-width:360px){
+    .university{
+        height: 40px;
+    }
+}

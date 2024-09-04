@@ -1,0 +1,197 @@
+
+.mainResume{
+    width: 100%;
+    height: auto;
+    margin: 0;
+     padding: 15px 0 0px 40px;
+}
+
+.aboutResume{
+    display: flex;
+    width: 90%;
+    height: auto;
+    gap: 20px;
+   
+}
+.resumeText{
+    display: flex;
+    flex-direction: column;
+    flex: 50% 1;
+    gap: 10px;
+
+}
+
+.fullName{
+    display: flex;
+    height: auto;
+    width: 300px;
+}
+.fullName .name{
+ color: #f93b1d;
+ font-size: 31px;
+}
+.fullName h1:first-child{
+    margin-right: 5px;
+}
+
+.aboutMe{
+max-width:300px;
+height: auto;
+}
+ .aboutMe .biographyTitle{
+    color: #f93b1d;
+    font-size: 24px;
+ }
+
+ .aboutMe .biography{
+    font-size:16px;
+    font-weight: 500;
+
+ }
+.Social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 170px;
+    height: 50px;
+    gap:20px;
+}
+.email, .phone{
+    display: flex;
+}
+.email img, .phone img{
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+.email span, .phone span{
+   font-size: 18px;
+}
+
+.resumeImageHidden{
+    display: flex; 
+    height: auto;
+    border-style: none;
+    padding: 15px 0 0 0;
+}
+.resumeImageHidden img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.resumeImage{
+    display: flex;
+    justify-content: center;
+    flex: 50% 2;
+    height: auto;
+    border-style: none;
+    padding: 10px 0;
+}
+.resumeImage img{
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+    .resumeImage img{
+        width: 200px;
+        height: 200px;
+
+    }
+}
+@media only screen and (min-width: 965px){
+    .resumeImageHidden{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 964px){
+    .aboutResume{
+        display: flex;
+        flex-direction: column;
+    }
+    .resumeImage{
+        display: none;
+    }
+    .fullName .name{
+        font-size: 29px;
+       }
+       .aboutMe .biographyTitle{
+        font-size: 22px;
+     }
+     .aboutMe .biography{
+        font-size:15px  
+     }
+     .email img, .phone img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .email span, .phone span{
+       font-size: 16px;
+    }
+    .resumeImageHidden img{
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width : 768px){
+    .mainResume{
+        padding: 15px 0 0 0 ;
+    }
+    .aboutResume{
+        padding: 15px 0 0 40px;
+    }
+    .resumeImageHidden{
+        display: flex;
+        height: auto;
+        border-style: none;
+        padding: 15px 0 0 0;
+    }
+    
+    /* .aboutResume{
+        align-items: start;
+        padding: 0 0 0 40px;
+    } */
+    .fullName .name{
+        font-size: 25px;
+    }
+       .aboutMe .biographyTitle{
+        font-size: 18px;
+     }
+     .aboutMe .biography{
+        font-size:15px  
+     }
+
+    
+}
+
+@media only screen and (max-width : 640px){
+    .fullName{
+        width: 250px;
+    }
+    .fullName .name{
+        font-size: 22px;
+    }
+       .aboutMe .biographyTitle{
+        font-size: 16px;
+    }
+    .email img, .phone img{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .email span, .phone span{
+       font-size: 15px;
+    }
+    
+
+
+}

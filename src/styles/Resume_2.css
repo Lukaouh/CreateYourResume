@@ -1,0 +1,112 @@
+
+.ResumeContainer{
+    display: flex;
+    flex: 55%;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    padding: 0px 0px 0px 40px;
+    gap: 5;
+
+}
+.Experience{
+    color: #f93b1d;
+    font-size: 20px;
+    height: 55px;
+}
+
+.Position {
+    display: flex;
+    width: 100%;
+    height: 30px;
+
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.position .Myposition{
+    width: 100%;
+}
+
+.workPlace{
+    width: 100%;
+    height: 30px;
+}
+.workPlace p{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.Date{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    color: grey;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Date .endDate{
+    margin-left: 10px;
+}
+.Date .hyphen{
+    margin-left: 10px;
+}
+
+.AboutRole{
+   width: 100%;
+   font-size:16px;
+
+}
+
+@media only screen and (max-width: 964px){
+    .Experience{
+        font-size: 18px;
+    }
+    .Position{
+        font-size: 15px;
+        height: 25px;
+    }
+    .workPlace p{
+        font-size: 14px;
+    }
+    .Date{
+        font-size: 18px;
+        height: 45px;
+    }
+    .AboutRole{
+        font-size: 15px;
+
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    .Role{
+        display: flex;
+    
+    }
+   .Experience{
+    font-size: 16px;
+    height: 50px;
+}
+    .Date{
+        font-size: 16px;
+        height: 35px;
+    }
+}
+@media only screen and (max-width: 640px){
+    .Experience{
+        font-size: 14px;
+        height: 45px;
+    }
+    .Date{
+        font-size: 15px;
+         height: 30px;
+    }
+
+}
+@media only screen and (max-width:360px){
+  
+}
